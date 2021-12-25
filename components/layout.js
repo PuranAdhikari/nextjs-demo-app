@@ -26,10 +26,9 @@ export default function Layout({children, home}) {
                 <meta name="twitter:card" content="summary_large_image"/>
             </Head>
             <div className={"row"}>
-                    <>
-                        <Navbar />
-                    </>
-                )}
+                <>
+                    <Navbar/>
+                </>
             </div>
             <main>{children}</main>
             {!home && (
